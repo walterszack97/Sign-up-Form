@@ -65,9 +65,9 @@ p {
     width: 90%;
 }
 article {
-    padding-right: 19vw;
-    padding-left: 3vw;
-    padding-top: 11vh;
+    width: 80%;
+    margin-top: 10%;
+    padding: 3vw;
 }
 .remote {
     padding-top: 3vh;
@@ -78,10 +78,11 @@ form {
     align-items: center;
     background-color: black;
     height: 30%;
+    padding: 40px 0;
 }
 .form_container {
-    padding-left: 3vw;
-    padding-right: 28vw;
+    width: 80%;
+    padding: 3vw;
 }
 .form_container>p {
     color: rgb(240, 226, 182);
@@ -92,7 +93,7 @@ span {
     flex-direction: column;
     width: 13vw;
     margin-top: 20px;
-    margin-right: 20px;
+    margin-right: 30px;
     color: rgb(240, 226, 182);
 }
 
@@ -104,7 +105,8 @@ span {
 
 .footer_content {
     padding-left: 3vw;
-    margin-top: 45px;
+    padding: 3vw;
+    margin-top: 5%;
 }
 
 button {

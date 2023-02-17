@@ -215,9 +215,11 @@ em {
         width: 100%;
     }
     .img_container {
-        height: 300px;
+        height: 200px;
+        min-height: 200px;
         width: 100%;
-        background-position: center -400px;
+        background-position: center -620px;
+        background-attachment: fixed;
     }
     .logo_container{
         position: relative;

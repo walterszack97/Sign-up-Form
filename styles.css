@@ -175,6 +175,7 @@ span {
 
 .footer_container{
     display: flex;
+    justify-content: space-between;
     background-color: var(--bg-color);
     height: 35%;
 }
@@ -185,7 +186,7 @@ span {
 }
 
 .theme_container {
-    justify-self: end;
+    justify-self: flex-end;
     align-self: flex-end;
 }
 
@@ -206,8 +207,33 @@ em {
 }
 
 @media only screen and (max-width: 600px){
-    .form_container {
+    .container {
         flex-flow: column nowrap;
         align-items: center;
+    }
+    .content_container {
+        width: 100%;
+    }
+    .img_container {
+        height: 300px;
+        width: 100%;
+        background-position: center -400px;
+    }
+    .logo_container{
+        position: relative;
+        top: 0;
+        height: auto;
+        background: rgba(0, 0, 0, .3);
+    }
+    .info_container{
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+    .remote {
+       text-align: center;
+    }
+    .form_container {
+        justify-content: center;
     }
 }

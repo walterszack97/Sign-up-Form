@@ -23,7 +23,9 @@
     --box_shadow:  0 0 2px black;
     --button-color: white;
 }   
-
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 body, html{ 
     color: white;
     background-color: var(--bg-color);
@@ -119,6 +121,7 @@ input:checked + .slider:before {
 }
 
 .odin {
+    font-family: odinFont;
     align-self: center;
     color: var(--odin_color);
 }
@@ -154,6 +157,8 @@ form {
 .form_container {
     display: flex;
     flex-flow: wrap;
+    font-family: odinFont;
+    font-size: 1.5rem;
     width: 80%;
     padding: 3vw;
     column-gap: 10px;
@@ -200,6 +205,9 @@ button {
     border-radius: 8%;
     border: 1px solid var(--special_text-color);
 }
+button:hover {
+    background-color: var(--bg-color);
+}
 
 a {
     color: var(--special_text-color);
@@ -209,6 +217,11 @@ h3 {
 }
 em {
     color: var(--special_text-color);
+}
+
+@font-face {
+    font-family: odinFont;
+    src: url(fonts/Norse-Bold.otf);
 }
 
 @media only screen and (max-width: 600px){

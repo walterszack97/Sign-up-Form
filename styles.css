@@ -236,8 +236,8 @@ em {
         height: 200px;
         min-height: 200px;
         width: 100%;
-        background-position: center -620px;
-        background-attachment: fixed;
+        background-position: center -320px;
+        object-fit: contain;
     }
     .logo_container{
         position: relative;

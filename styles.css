@@ -22,7 +22,8 @@
     --special_text-color: rgb(66, 179, 255);
     --box_shadow:  0 0 2px black;
     --button-color: white;
-}   
+}
+  
 body {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -181,14 +182,18 @@ span {
 input:focus {
     border-style: solid;
     outline: none;
-    border-color: var(--special_text-color);
 }
-form>input:invalid {
+input:focus:invalid {
     border-color: red;
 }
   
-  form>input:valid {
-    border-color: green;
+input:valid {
+    border-color: var(--special_text-color);
+}
+.password_validate {
+    color: red;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .footer_container{

@@ -45,20 +45,20 @@
                     </span>
                     <span>
                         <label for="password">PASSWORD</label>
-                        <input type="password" id="password" name="password" required>
+                        <input type="password" id="password" name="password" oninput="return validate()" required>
+                        <p class="password_validate"></p>
                     </span>
                     <span>
                         <label for="confirm_p">CONFIRM PASSWORD</label>
-                        <input type="confirm_p" id="confirm_p" name="confirm_p" required>
+                        <input type="confirm_p" id="confirm_p" name="confirm_p" oninput="return validate()" placeholder="hi" required>
                     </span>
                 </div>
-            
                 <div class="footer_container">
                     <div class="footer_content">
-                        <button class="submit_btn">Create Account</button>
+                        <button class="submit_btn" value="submit" onclick="return validate()">Create Account</button>
                     </div>
             </form>
-            </div>
+                 </div>
                 <div class="login">
                     <h3><p>Already have an account? <a href="index.html">Log in</a></p></h3>
                 </div>

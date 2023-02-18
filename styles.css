@@ -178,7 +178,11 @@ span {
     margin-right: 30px;
     color: var(--special_text-color);
 }
-
+input:focus {
+    border-style: solid;
+    outline: none;
+    border-color: var(--special_text-color);
+}
 
 .footer_container{
     display: flex;
@@ -275,5 +279,11 @@ em {
     }
     .theme_container{
         padding-bottom: 20px;
+    }
+}
+
+@media (max-width: 350px) {
+    .img_container {
+        display: none;
     }
 }

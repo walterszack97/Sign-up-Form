@@ -183,6 +183,13 @@ input:focus {
     outline: none;
     border-color: var(--special_text-color);
 }
+form>input:invalid {
+    border-color: red;
+}
+  
+  form>input:valid {
+    border-color: green;
+}
 
 .footer_container{
     display: flex;
@@ -195,10 +202,16 @@ input:focus {
     padding-left: 3vw;
     padding: 3vw;
 }
+.login {
+    display: flex;
+    justify-content: center;
+    padding: 4vw;
+}
 
 .theme_container {
-    justify-self: flex-end;
-    align-self: flex-end;
+    margin-top: auto;
+    margin-left: auto;
+    padding-bottom: 10px;
 }
 
 button {

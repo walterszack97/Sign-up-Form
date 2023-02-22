@@ -1,4 +1,5 @@
 # Sign-up-Form
+Sign-up form allowing a user to enter and submit their personal data
 
 Demonstrated skills:
 
